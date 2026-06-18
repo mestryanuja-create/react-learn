@@ -4,7 +4,7 @@ import 'remixicon/fonts/remixicon.css'
 
 
 function Card(props) {
-    console.log(props.company)
+    console.log(props)
   return (
     <div className="card">
       <div className="top">

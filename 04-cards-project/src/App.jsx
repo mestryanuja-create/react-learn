@@ -116,8 +116,9 @@ const App = () => {
   return (
     <div className='parent'>
       
-      {jobs.map(function(elem){
-        return <Card image={elem.image} 
+      {jobs.map(function(elem,idx){
+        console.log(idx);
+        return <Card key={idx} image={elem.image} 
                      company={elem.company}
                      postedAgo={elem.postedAgo} 
                      title={elem.title}
