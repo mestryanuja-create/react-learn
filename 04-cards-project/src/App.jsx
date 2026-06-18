@@ -118,7 +118,7 @@ const App = () => {
       
       {jobs.map(function(elem,idx){
         console.log(idx);
-        return <Card key={idx} image={elem.image} 
+        return <Card image={elem.image} 
                      company={elem.company}
                      postedAgo={elem.postedAgo} 
                      title={elem.title}
