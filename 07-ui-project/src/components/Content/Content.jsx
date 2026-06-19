@@ -79,9 +79,9 @@ const Content = () => {
 
             <div className='text-8xl'><i class="ri-arrow-right-up-line"></i></div>
         </div>
-        <div className="content-right flex justify-around align-middle h-full w-7/12 m-3 overflow-x-auto scrollbar-thin">
+        <div className="content-right flex justify-around align-middle h-full w-8/12 m-3 overflow-x-auto scrollbar-thin pr-5">
             <div>
-            <div className="flex gap-4 ">
+            <div className="flex gap-4 nowrap">
             {cardArr.map((elem, index) => (
                     <Card
                     key={index}

@@ -5,7 +5,7 @@ import Content from './components/Content/Content'
 
 const App = () => {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <Header></Header>
       <Content></Content>
     </div>
